@@ -1,0 +1,153 @@
+\relax 
+\citation{KDD18_TaobaoSearch_RL}
+\citation{KDD18_JD_nextItemRecs}
+\citation{kdd19_amazon_product_search}
+\citation{wu2018turning}
+\citation{MLKD19_JD_onlineRanking}
+\citation{kdd20_sequentialRec}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}}
+\newlabel{sec:intro}{{1}{1}}
+\citation{kdd20_facebook_search}
+\citation{kdd19_amazon_product_search}
+\citation{elnlp2020_itemInteraction}
+\citation{guo2020debiasing}
+\citation{kdd20_DNN_airbnb_search}
+\citation{pobrotyn2020contextaware}
+\citation{wu2018turning}
+\citation{kdd20_sequentialRec}
+\citation{recsys16_amazon}
+\citation{MLKD19_JD_onlineRanking}
+\citation{KDD18_TaobaoSearch_RL}
+\citation{li2017contextaware}
+\citation{ICML16_contextCascadingBandits}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces The first two components show a typical 2-stage ranker, where the first-pass narrows down the product catalog to relevant items, while the second-pass performs fine-grained re-ranking to optimize for a business metric. The proposed model, \emph  {OPAR}, is responsible for within-session, online personalization that can be effective on its own or as a third-pass ranker on top of a 2-stage ranking system. }}{2}}
+\newlabel{fig:ranking_system}{{1}{2}}
+\citation{KDD18_JD_nextItemRecs}
+\citation{SIGIR16_RNN_nextBasketRec}
+\citation{2019_DNN_rec_survey}
+\citation{Hidasi2016SessionbasedRW}
+\citation{Hidasi2016SessionbasedRW}
+\citation{IJCAI17_sessionContextRecsys}
+\citation{recsys17_sessionRec_perso}
+\citation{DLRS16_sessionBasedRecsys}
+\citation{SIGIR16_RNN_nextBasketRec}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Example of attribute and action-aware re-ranking by \emph  {OPAR}. From left to right: (1) shows search results for the query ``Ring''. User 1 clicked on two gemstone rings (outlined in green), while User 2 adds a diamond ring to their cart (outlined in blue) (2) The attribute of the clicked items are ``Crystal'', ``Gemstone'', ``Ruby'' and ``Rose Gold'', while the add-to-cart item has the attributes ``Diamond'', ``Engagement'', ``Oval-Cut'' and ``14k Gold'' (3) On a subsequent search page, \emph  {OPAR} re-ranks items based on each user's diverging preferences.}}{3}}
+\newlabel{fig:toy}{{2}{3}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{3}}
+\newlabel{sec:related_works}{{2}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Within-Session Ranking}{3}}
+\citation{KDD18_STAMP}
+\citation{KDD18_JD_nextItemRecs}
+\citation{recsys17_userSesssionIntent}
+\citation{CIKM19_sessionRec_graphNN}
+\citation{KDD19_streaming_sessionRecs}
+\citation{liu2019convolution}
+\citation{sigir18_nextBucketRec}
+\citation{sutton2018reinforcement}
+\citation{Auer2002FinitetimeAO}
+\citation{NIPS2011_TS}
+\citation{Auer2003EXP3}
+\citation{sutton2018reinforcement}
+\citation{kdd20_sequentialRec}
+\citation{KDD18_TaobaoSearch_RL}
+\citation{MLKD19_JD_onlineRanking}
+\citation{recsys19_interativeRecs}
+\citation{IEEE19_onlineInterativeCF}
+\citation{LDA}
+\citation{kdd20_sequentialRec}
+\citation{MLKD19_JD_onlineRanking}
+\citation{KDD18_TaobaoSearch_RL}
+\citation{li2017contextaware}
+\citation{ICML16_contextCascadingBandits}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Multi-Armed Bandits Ranking System}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Problem Formulation}{4}}
+\newlabel{sec:problem_formulation}{{3}{4}}
+\citation{agrawal2012analysis}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Word clouds of item attributes in each dataset}}{5}}
+\newlabel{fig:wordCloud}{{3}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Definitions}{5}}
+\newlabel{eq:action_on_item}{{1}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Problem Statement}{5}}
+\citation{agrawal2012analysis}
+\@writefile{loa}{\contentsline {algocf}{\numberline {1}{\ignorespaces OPAR Algo: Re-Ranking \& Parameter Update}}{6}}
+\newlabel{alg:update}{{1}{6}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Proposed Algorithm, \textit  {OPAR}}{6}}
+\newlabel{sec:model}{{4}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Scoring and Re-ranking Item List}{7}}
+\newlabel{subsec:score_and_rank}{{4.1}{7}}
+\newlabel{eq:attribute_sampling}{{2}{7}}
+\newlabel{eq:scoring}{{3}{7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Attribute Parameter Updates}{7}}
+\newlabel{subsec:update_parameters}{{4.2}{7}}
+\newlabel{eq:updating}{{4}{7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}\textit  {OPAR} algorithm Procedure}{7}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Etsy Real-world Session-based Dataset Over 3 weeks}}{8}}
+\newlabel{tb:dataset}{{1}{8}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Experiments}{8}}
+\newlabel{sec:experiments}{{5}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Data Collection}{8}}
+\newlabel{sec:dataset}{{5.1}{8}}
+\citation{wang2013theoretical}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Experimental Set-up}{9}}
+\newlabel{subsec:experimental_setup}{{5.2}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Evaluation Metrics and Baselines}{9}}
+\newlabel{sec:metrics_and_baselines}{{5.3}{9}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.1}Evaluation Metrics}{9}}
+\citation{wu2010adapting}
+\citation{burges2007learning}
+\citation{Hidasi2016SessionbasedRW}
+\citation{Hidasi2016SessionbasedRW}
+\citation{Hidasi2016SessionbasedRW}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Re-ranking performance comparison on over all data sets (top-left) and 7 category-specific data sets.}}{10}}
+\newlabel{result:allComparison}{{2}{10}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.2}Baselines}{10}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Multiple Purchase Intents within One Session}}{11}}
+\newlabel{tb:queries}{{3}{11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Experimental Results}{11}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.4.1}Overall Re-ranking Performance}{11}}
+\newlabel{exp1}{{5.4.1}{11}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.4.2}Effectiveness of Action-aware MABs}{11}}
+\newlabel{exp3}{{5.4.2}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces In-session \textit  {OPAR} re-ranking performance.}}{12}}
+\newlabel{fig:multiIntent}{{4}{12}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.4.3}Interpretability of Within-Session Shopping Mission}{12}}
+\newlabel{exp4}{{5.4.3}{12}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{12}}
+\newlabel{sec:conclusion}{{6}{12}}
+\bibcite{agrawal2012analysis}{1}
+\bibcite{Auer2002FinitetimeAO}{2}
+\bibcite{Auer2003EXP3}{3}
+\bibcite{sigir18_nextBucketRec}{4}
+\bibcite{LDA}{5}
+\bibcite{burges2007learning}{6}
+\bibcite{NIPS2011_TS}{7}
+\bibcite{KDD19_streaming_sessionRecs}{8}
+\bibcite{guo2020debiasing}{9}
+\bibcite{kdd20_DNN_airbnb_search}{10}
+\bibcite{Hidasi2016SessionbasedRW}{11}
+\bibcite{IJCAI17_sessionContextRecsys}{12}
+\bibcite{KDD18_TaobaoSearch_RL}{13}
+\bibcite{kdd20_facebook_search}{14}
+\bibcite{li2017contextaware}{15}
+\bibcite{ICML16_contextCascadingBandits}{16}
+\bibcite{KDD18_JD_nextItemRecs}{17}
+\bibcite{KDD18_STAMP}{18}
+\bibcite{liu2019convolution}{19}
+\bibcite{recsys17_userSesssionIntent}{20}
+\bibcite{kdd19_amazon_product_search}{21}
+\bibcite{pobrotyn2020contextaware}{22}
+\bibcite{CIKM19_sessionRec_graphNN}{23}
+\bibcite{recsys17_sessionRec_perso}{24}
+\bibcite{recsys19_interativeRecs}{25}
+\bibcite{sutton2018reinforcement}{26}
+\bibcite{DLRS16_sessionBasedRecsys}{27}
+\bibcite{recsys16_amazon}{28}
+\bibcite{IEEE19_onlineInterativeCF}{29}
+\bibcite{wang2013theoretical}{30}
+\bibcite{wu2018turning}{31}
+\bibcite{wu2010adapting}{32}
+\bibcite{MLKD19_JD_onlineRanking}{33}
+\bibcite{SIGIR16_RNN_nextBasketRec}{34}
+\bibcite{2019_DNN_rec_survey}{35}
+\bibcite{elnlp2020_itemInteraction}{36}
+\bibcite{kdd20_sequentialRec}{37}
